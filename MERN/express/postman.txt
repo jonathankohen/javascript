@@ -1,0 +1,9 @@
+https://pokeapi.co/api/v2/pokemon/charizard
+
+https://pokeapi.co/api/v2/pokemon/13 (Weedle)
+
+https://pokeapi.co/api/v2/pokemon/mew
+
+https://pokeapi.co/api/v2/pokemon/55 (Golduck)
+
+https://pokeapi.co/api/v2/pokemon/snorlax

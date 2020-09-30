@@ -1,0 +1,23 @@
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#image_section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+img {
+    margin: 5px;
+}
+
+img:hover {
+    border: 3px solid white;
+}

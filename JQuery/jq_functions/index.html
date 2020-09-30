@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>jQuery Functions</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <!-- _ROW 1 -->
+            <div class="row mt-5 align-items-center">
+                <div class="col text-center">
+                    <a href="#" id="btn_turn_red" class="btn btn-primary"
+                        >AddClass</a
+                    >
+                </div>
+
+                <div class="col-10 text-center">
+                    <h1>AddClass</h1>
+                    <p id="p_turn_red" class="text-black">
+                        Click the button to add class 'red' to this paragraph.
+                    </p>
+                    <p
+                        id="new_red_text"
+                        class="col-4 mx-auto my-2 p-2 rounded text-center  bg-danger"
+                    >
+                        Well, this is new. I like what you've done with the
+                        place.
+                    </p>
+                </div>
+            </div>
+            <hr />
+
+            <!-- _ROW 2 -->
+            <div id="st_row" class="row mt-5 align-items-center">
+                <div class="col text-center st_col">
+                    <a href="#" id="slidetoggle" class="btn btn-primary"
+                        >Slidetoggle</a
+                    >
+                </div>
+
+                <div class="col-10 text-center">
+                    <h1>Slidetoggle</h1>
+                    <p>
+                        Click the button to slidetoggle a hidden image.
+                    </p>
+                    <img
+                        src="images/basic-jquery.png"
+                        alt="Hidden Pic"
+                        width="300px"
+                        height="300px"
+                    />
+                </div>
+            </div>
+            <hr />
+
+            <!-- _ROW 3 -->
+            <div id="append_row" class="row mt-5 align-items-center">
+                <div class="col text-center">
+                    <a id="append" href="#" class="btn btn-primary">Append</a>
+                </div>
+
+                <div class="col-10 text-center">
+                    <h1>Append</h1>
+                    <p id="append_to">
+                        Click the button to append a new paragraph!
+                    </p>
+                </div>
+            </div>
+            <hr />
+
+            <!-- _ROW 4 -->
+            <div id="append_row" class="row mt-5 align-items-center">
+                <div class="col text-center">
+                    <label for="feedback">Feedback for Your Eyes Only: </label>
+                    <input
+                        type="text"
+                        placeholder="Type something here!"
+                        class="px-2 mx-2"
+                    />
+                    <p id="feedback_output"></p>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
